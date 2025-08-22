@@ -9,6 +9,8 @@ weight = float(input("Weight (kg) : "))
 
 #It's time to calculate the Data
 bmi = weight / height**2
+print(f"Your BMI is: {bmi:.2f}")
+
 if bmi < 18.5 :
     print("The result is Underweight")
 elif 18.5 < bmi < 24.9:
