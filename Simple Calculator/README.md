@@ -55,9 +55,3 @@ Choose the execution method [Add | Subtract | Multiply | Divided] : Multiply
 ---
 
 ✍️ *This project is part of my journey to becoming a software engineer. Day 1 complete ✅*
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("✅ README.md has been generated!")
