@@ -1,6 +1,6 @@
-# 🌱 My First C Project  
+# 🌱 Code Odyssey  
 
-This project is my very first step into **C programming**.  
+This project is very first step into **C programming**.  
 It contains simple examples to learn the basics of **variables, operators, and conditions** in C.  
 
 ---
