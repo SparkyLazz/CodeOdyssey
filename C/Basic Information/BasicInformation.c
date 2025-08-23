@@ -74,6 +74,31 @@ int main()
     xDec--; // Decrease by 1
     printf("After decrement: %d\n", xDec); // Should be return 19
 
+    //Condition and If Statements
+    //Here the Condition that very popular coder using :
+    //Less than                : a < b
+    //Less than or equal to    : a <= b
+    //Greater than             : a > b
+    //Greater than or equal to : a >= b
+    //Equal to                 : a == b
+    //Not Equal to             : a != b
 
+    //if (condition) {
+    //  This code will run if the condition requirement meet
+    //}
+
+    //Example of real Syntax
+    if (20 > 18){
+        printf("\n20 is greater than 18");
+    }
+
+    //Combining with Variable
+    int intIF = 6;
+    int intIF1 = 9;
+    if (intIF < intIF1){
+        printf("\nintIF is less than intIF1");
+    }
+
+    //Now the rest you should now it Right ^^
     return 0; //For not looping
 }
