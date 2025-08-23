@@ -44,5 +44,36 @@ int main()
     float totalFloat = xFloat - yFloat;
     printf("%f - %f = %f\n", xFloat, yFloat,totalFloat); //Should be result -4.400000
 
+    //Multiplication
+    int xInt1 = 6;
+    int yInt1 = 9;
+    int totalInt1 = xInt1 * yInt1;
+    printf("%d * %d = %d\n", xInt1, yInt1, totalInt1); //Should be return 54
+
+    //Division
+    double xDouble = 5;
+    double yDouble = 10;
+    double totalDouble = xDouble / yDouble;
+    printf("%lf / %lf = %lf", xDouble, yDouble, totalDouble); //Should be return 0.500000
+
+    //Modulus Section (only works with integers)
+    int xMod = 17;
+    int yMod = 5;
+    int totalMod = xMod % yMod;
+    printf("\n%d %% %d = %d\n", xMod, yMod, totalMod); // Should be return 2
+
+    //Increment Section
+    int xInc = 10;
+    printf("Before increment: %d\n", xInc);
+    xInc++; // Increase by 1
+    printf("After increment: %d\n", xInc); // Should be return 11
+
+    //Decrement Section
+    int xDec = 20;
+    printf("Before decrement: %d\n", xDec);
+    xDec--; // Decrease by 1
+    printf("After decrement: %d\n", xDec); // Should be return 19
+
+
     return 0; //For not looping
 }
